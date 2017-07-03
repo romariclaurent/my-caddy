@@ -1,5 +1,5 @@
 localhost:8080 {
     tls off
     gzip
-    proxy / eb-api.com:1337
+    proxy / my-api:1337
 }
