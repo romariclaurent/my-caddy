@@ -1,0 +1,2 @@
+from toccoag/openshift-nginx
+COPY nginx.conf /etc/nginx/conf.d/nice2.conf
