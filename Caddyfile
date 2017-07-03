@@ -1,6 +1,5 @@
-localhost:8080, rac35.apps-wh.axaxx.nu, rac35:8080 {
-    root /srv
-    tls off
-    gzip
-    proxy /api my-api:1337
-}
+0.0.0.0:8080
+root /srv
+tls off
+gzip
+proxy /api my-api:1337
