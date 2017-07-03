@@ -1,5 +1,6 @@
 localhost:8080 {
+    root /srv
     tls off
     gzip
-    proxy / my-api:1337
+    proxy /api my-api:1337
 }
